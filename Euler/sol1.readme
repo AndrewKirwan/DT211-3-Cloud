@@ -1,0 +1,5 @@
+This code iterates through a loop 1000 times, and each 
+time it does so it checks the number it is currently 
+iterated on is cleanly divisible by 3 or 5. If this 
+is the case, then the number is accumulated onto 
+‘finalsum’ which prints out the total at the end.
