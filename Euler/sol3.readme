@@ -1,0 +1,14 @@
+The purpose of this code is to find the largest
+prime factor of the number 600851475143. The outer 
+for loop interates this number of times, while the 
+inner for loop iterates equal to the current value of
+the outer loop. (Ex. the outer loop is at 1000, the 
+inner loop iterates 1000 times). The value is divided
+by every number up to itself and checked for a
+remainder. (Using same example, 1000 is divided by 1 ->
+999). The value is also checked that it is not equal to
+1 or itself, as these are present in prime factors.
+If it passes all of these checks then the variable 'k'
+is replaced with the new number, provided it is larger
+than the previous value of 'k'. At the end of the code
+'k' is printed to the screen.
